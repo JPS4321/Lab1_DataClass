@@ -1,4 +1,9 @@
-fun sunsetViews(Edificio: IntArray, Direccion: String): List<Int> {
+// Esta parte del ejercicio fue hecha en el playground
+// Juan Pablo Solis
+// 22102
+// Programacion Plataformas Mobiles
+//
+fun Vistas(Edificio: IntArray, Direccion: String): List<Int> {
     val indices = mutableListOf<Int>()
     var AlturaMax = 0
 
@@ -29,5 +34,5 @@ fun main() {
     val edificio = intArrayOf(3, 5, 4, 4, 3, 1, 3, 2)
     val direccion = "EAST"
 
-    println(sunsetViews(edificio, direccion))
+    println(Vistas(edificio, direccion))
 }
