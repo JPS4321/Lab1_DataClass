@@ -21,6 +21,6 @@ fun PrimeraLetraNoRepetida(s: String): Int {
 
 fun main() {
     val string = "aaammyddrriidd"
-    println(PrimeraLetraNoRepetida(string)) // prints: 1 because 'b' is the first non-repeating character
+    println(PrimeraLetraNoRepetida(string))
 }
 
