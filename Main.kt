@@ -1,3 +1,8 @@
+// Esta parte del ejercicio fue hecha en el playground
+// Juan Pablo Solis
+// 22102
+// Programacion Plataformas Mobiles
+//
 enum class Team {
     Mercedes,
     RedBullRacing,
