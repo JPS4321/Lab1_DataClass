@@ -1,0 +1,50 @@
+// Esta parte del ejercicio fue hecha en el playground
+// Juan Pablo Solis
+// 22102
+// Programacion Plataformas Mobiles
+//
+data class Driver(
+    val name: String,
+    val team: String,
+    val country: String,
+    val number: Int
+)
+
+fun main() {
+    val driver1 = Driver(name = "Lewis Hamilton", team = "Mercedes", country = "UK", number = 44)
+    val driver2 = Driver(name = "Lewis Hamilton", team = "Mercedes", country = "UK", number = 44)
+	val driver3 = Driver(name = "Sebastian Vettel", team = "Aston Martin", country = "Germany", number = 5)
+	val driver4 = Driver(name = "Charles Leclerc", team = "Ferrari", country = "Monaco", number = 16)
+
+    println("EXPLORING DATA CLASSESS IN KOTLIN")
+	println("")
+	println("TASK: 1")
+    println(driver1)
+	println(driver2)
+	println(driver3)
+	println(driver4)
+	println("")
+	println("TASK: 2")
+    val isEqual = driver1 == driver2
+	println("driver1 es igual a driver2: $isEqual")
+    val isNotEqual = driver1 != driver3
+	println("driver1 no es igual a driver2: $isNotEqual")
+	println("")
+	println("TASK: 3")
+    val driverCopy = driver1.copy(name = "Bottas", team = "Mercedes", number = 77)
+	println(driverCopy)
+	println("")
+	println("TASK: 4")
+    val (name, team, country, number) = driver1
+	println("Name: $name, Team: $team, Country: $country, Number: $number")
+	println("")
+	println("TASK: 5")
+    println("No funciona android studio")
+
+
+
+
+
+    
+
+}
