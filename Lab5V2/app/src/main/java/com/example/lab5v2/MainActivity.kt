@@ -70,6 +70,22 @@ class MainActivity : ComponentActivity() {
                         fontSize = 25.sp,
                         modifier = Modifier.offset(x = 150.dp, y = 400.dp)
                     )
+                    Text(
+                        text = "Informacion Evento Especifico",
+                        color = Color.Black,
+                        fontSize = 24.sp,
+                        modifier = Modifier.offset(x = 30.dp, y = 550.dp)
+                    )
+                    CustomButton(
+                        icon = Icons.Default.ArrowForward,  // Use the ArrowForward icon
+                        xPos = 130.dp, yPos = 590.dp, width = 140.dp, height = 80.dp,
+                        context = this@MainActivity,
+                        destinationActivity =  DescripcionEvento::class.java,
+                        iconSize = 40.dp,  // Set the desired size for the icon
+
+                    )
+
+
                     CustomButton(
                         icon = Icons.Default.ArrowForward,  // Use the ArrowForward icon
                         xPos = 120.dp, yPos = 150.dp, width = 140.dp, height = 80.dp,
@@ -78,6 +94,7 @@ class MainActivity : ComponentActivity() {
                         iconSize = 40.dp,  // Set the desired size for the icon
 
                     )
+
                     CustomButton(
                         icon = Icons.Default.ArrowForward,  // Use the ArrowForward icon
                         xPos = 120.dp, yPos = 300.dp, width = 140.dp, height = 80.dp,

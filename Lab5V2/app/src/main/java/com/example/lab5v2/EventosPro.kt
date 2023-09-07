@@ -61,29 +61,7 @@ class EventosPro : ComponentActivity() {
     }
 }
 
-@Composable
-fun ImageCard(
-    painter: Painter,
-    contentDescription: String,
-    title: String,
-    modifier: Modifier = Modifier
-) {
-    Card(
-        modifier = modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(15.dp),
-    ) {
-        Box(modifier = Modifier.height(200.dp)) {
-            Image(
-                painter = painter,
-                contentDescription = contentDescription,
-                contentScale = ContentScale.Crop
-            )
-            Box(
-                modifier = Modifier.fillMaxSize().padding(12.dp),
-            )
-        }
-    }
-}
+
 
 
 
