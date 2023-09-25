@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Lab5V2</string>
+    <string name="app_name">Lab6V2</string>
+    <string name="title_activity_descripcion_eventos">DescripcionEventos</string>
     <string name="title_activity_eventos_pro">EventosPro</string>
     <string name="title_activity_lugares_lista">LugaresLista</string>
     <string name="title_activity_perfil">Perfil</string>
-    <string name="title_activity_descripcion_evento">DescripcionEvento</string>
 </resources>
